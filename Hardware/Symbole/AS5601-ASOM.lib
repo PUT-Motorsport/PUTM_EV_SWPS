@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# AS5601-ASOM
+#
+DEF AS5601-ASOM U 0 40 Y Y 1 L N
+F0 "U" 0 0 50 H I L BNN
+F1 "AS5601-ASOM" 0 0 50 H I L BNN
+F2 "AS5601-ASOM" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 0 -500 0 600 N
+T 0 0 -600 50 0 0 0 AS5601 Normal 0 L B
+S 0 -500 800 600 0 0 10 f
+X VDD5V 1 -200 500 200 R 40 40 0 0 B 
+X VDD3V3 2 -200 200 200 R 40 40 0 0 B 
+X PUSH 3 -200 -100 200 R 40 40 0 0 B 
+X GND 4 -200 -400 200 R 40 40 0 0 B 
+X A 8 1000 500 200 L 40 40 0 0 B 
+X SCL 7 1000 200 200 L 40 40 0 0 B 
+X SDA 6 1000 -100 200 L 40 40 0 0 B 
+X B 5 1000 -400 200 L 40 40 0 0 B 
+ENDDRAW
+ENDDEF
+#
+# End Library
